@@ -194,7 +194,7 @@ namespace Tyuiu.KosovskihVA.Sprint6.Task1.V28
             this.Controls.Add(this.groupBox1);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Спринт 6 | Таск1 | Вариант 28 | Косовских В.А. ПКТб-23-2";
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);

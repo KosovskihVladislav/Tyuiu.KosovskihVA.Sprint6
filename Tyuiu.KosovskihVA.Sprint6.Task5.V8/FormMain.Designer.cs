@@ -29,9 +29,9 @@ namespace Tyuiu.KosovskihVA.Sprint6.Task5.V8
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.buttonOpenData = new System.Windows.Forms.Button();
             this.buttonExecute = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -127,16 +127,16 @@ namespace Tyuiu.KosovskihVA.Sprint6.Task5.V8
             // 
             // chartData
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartData.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartData.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chartData.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartData.Legends.Add(legend2);
             this.chartData.Location = new System.Drawing.Point(214, 20);
             this.chartData.Name = "chartData";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartData.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartData.Series.Add(series2);
             this.chartData.Size = new System.Drawing.Size(571, 394);
             this.chartData.TabIndex = 5;
             this.chartData.Text = "chart1";

@@ -33,8 +33,8 @@ namespace Tyuiu.KosovskihVA.Sprint6.Task6.V19
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBoxInput = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBoxInput = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBoxOutput = new System.Windows.Forms.TextBox();
             this.openFileDialogTask = new System.Windows.Forms.OpenFileDialog();
             this.buttonHelp = new System.Windows.Forms.Button();
@@ -80,6 +80,17 @@ namespace Tyuiu.KosovskihVA.Sprint6.Task6.V19
             this.groupBoxInput.TabStop = false;
             this.groupBoxInput.Text = "Ввод:";
             // 
+            // textBoxInput
+            // 
+            this.textBoxInput.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.textBoxInput.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxInput.Location = new System.Drawing.Point(3, 16);
+            this.textBoxInput.Multiline = true;
+            this.textBoxInput.Name = "textBoxInput";
+            this.textBoxInput.ReadOnly = true;
+            this.textBoxInput.Size = new System.Drawing.Size(446, 408);
+            this.textBoxInput.TabIndex = 1;
+            // 
             // groupBox3
             // 
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -92,17 +103,6 @@ namespace Tyuiu.KosovskihVA.Sprint6.Task6.V19
             this.groupBox3.TabIndex = 23;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "ВВыввод:";
-            // 
-            // textBoxInput
-            // 
-            this.textBoxInput.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.textBoxInput.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxInput.Location = new System.Drawing.Point(3, 16);
-            this.textBoxInput.Multiline = true;
-            this.textBoxInput.Name = "textBoxInput";
-            this.textBoxInput.ReadOnly = true;
-            this.textBoxInput.Size = new System.Drawing.Size(446, 408);
-            this.textBoxInput.TabIndex = 1;
             // 
             // textBoxOutput
             // 
@@ -121,8 +121,7 @@ namespace Tyuiu.KosovskihVA.Sprint6.Task6.V19
             // 
             // buttonHelp
             // 
-            this.buttonHelp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonHelp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonHelp.Image = global::Tyuiu.KosovskihVA.Sprint6.Task6.V19.Properties.Resources.bug;
             this.buttonHelp.Location = new System.Drawing.Point(859, 12);
             this.buttonHelp.Name = "buttonHelp";
